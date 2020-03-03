@@ -15,7 +15,7 @@ inquirer.prompt([
     //axios call using User name 
 ]).then((response) =>{
     api
-    .getUser(reponse.username)
+    .getUser(response.username)
     .then(
         ({data}) => {console.log(data)})
     });
