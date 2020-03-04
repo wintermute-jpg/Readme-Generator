@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const api = require("./Utility/apis");
 const questions = require("./Utility/questions");
-const rm = require("./Utility/createReadMe");
+//const rm = require("./Utility/createReadMe");
 
 //Username Prompt
 inquirer.prompt([
@@ -17,8 +17,32 @@ inquirer.prompt([
     api
     .getUser(response.username)
     .then(
-        ({data}) => {console.log(data)})
+        ({data}) => {
+            console.log(data)
+            if(data.login === response.username){
+                //Call back generate question if valid user
+                generateQ()
+
+                
+                ;
+            }
+        })
     });
+    //generate questions if username is verified
+    function generateQ() {
+        console.log('Valid Username');
+        inquirer.prompt(questions)
+        .then((response) => {
+            api
+            .getUser(response.username)
+            .then(
+            ({data}) => {
+                console.log(data)
+        }
+    )}
+        )}
+    //write file function 
+
 
 
 
