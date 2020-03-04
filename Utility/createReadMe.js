@@ -20,16 +20,16 @@ ${data.install}
 ## Usage
 ${data.usage}
 
-##License:
+## License:
 ${data.license}
 
-##Contributing:
+## Contributing:
 ${data.contributing}
 
-##Tests:
+## Tests:
 ${data.tests}
 
-##Questions:
+## Questions:
     ![User Avatar](${data.avatar_url})
     User Email:
     ${data.email}
