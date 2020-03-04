@@ -26,7 +26,7 @@ const questions = [
             type: "list",
             message: "What kind of license are you using?",
             name: "license",
-            choices: ["MIT", "Eclipse", "ISC", "SIL", "NA"],
+            choices: ["MIT", "Eclipse", "ISC", "SIL", "N/A"],
         },
         //Contributing
         {

@@ -1,9 +1,9 @@
 
-# Readme Generator
+# Good Readme Generator
 [![Generic badge](https://img.shields.io/badge/license-MIT-green.svg)](https://shields.io/)
 
 ### Description:
-A good readme generator
+A small program to generate Readme files easily.
 
 ## Table of Contents:
 
@@ -16,24 +16,22 @@ A good readme generator
 * [Badges](#badges)
 
 ## Install Guide
-comp
+npm i index.js
 
 ## Usage
-none
+node index.js
 
 ## License:
 MIT
 
 ## Contributing:
-me
+Gabriel Young
 
 ## Tests:
-none
+index.js 
 
 ## Questions:
 <img src="https://avatars3.githubusercontent.com/u/11791361?v=4" alt="undefined" width="30%">
 
 User Email:
-null
-
-/Badges
+No email found

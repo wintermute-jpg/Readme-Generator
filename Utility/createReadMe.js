@@ -2,7 +2,23 @@
 function renderBadge(license){
     return `[![Generic badge](https://img.shields.io/badge/license-${license}-green.svg)](https://shields.io/)`
 }
-//function to create licenses
+
+//function if null license
+function handleLicense(license){
+    if(license === "N/A"){
+        return `No applicable license`
+    } else {
+        return license
+    }
+};
+//function if no email
+function handleEmail(email){
+    if(email === null){
+        return `No email found`
+    } else {
+        return email
+    }
+};
 
 function createReadMe(data) {
     return `
@@ -29,20 +45,19 @@ ${data.install}
 ${data.usage}
 
 ## License:
-${data.license}
+${handleLicense(data.license)}
 
 ## Contributing:
 ${data.contributing}
 
 ## Tests:
-${data.tests}
+To preform a test run the following command: ${data.tests}
 
 ## Questions:
 <img src="${data.avatar_url}" alt="${data.login}" width="30%">
 
 User Email:
-${data.email}
-
-/Badges`
+${handleEmail(data.email)}
+`
 }
 module.exports = createReadMe;
