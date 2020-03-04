@@ -1,6 +1,15 @@
+//function to create badges 
+function renderBadge(license){
+    return `
+    [![Generic badge](https://img.shields.io/badge/license-${license}-green.svg)](https://shields.io/)`
+}
+//function to create licenses
+
 function createReadMe(data) {
     return `
 # ${data.title}
+
+${renderBadge(data.license)}
 
 ### Description:
 ${data.description}
@@ -36,6 +45,6 @@ ${data.tests}
 User Email:
 ${data.email}
 
-//Badges`
+/Badges`
 }
 module.exports = createReadMe;
