@@ -1,8 +1,11 @@
 
 # Readme Generator
 
+
+    [![Generic badge](https://img.shields.io/badge/license-undefined-green.svg)](https://shields.io/)
+
 ### Description:
-A good Readme Generator
+A good read me generator
 
 ## Table of Contents:
 
@@ -15,7 +18,7 @@ A good Readme Generator
 * [Badges](#badges)
 
 ## Install Guide
-Computer
+Comp
 
 ## Usage
 none
@@ -35,4 +38,4 @@ none
 User Email:
 null
 
-//Badges
+/Badges
