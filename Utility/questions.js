@@ -9,10 +9,6 @@ const questions = [
             message: "How would you describe your project?",
             name: "description",
         },
-        //Table of Contents needs specific formatting
-        //{
-
-        //},
         //Installation Instructions 
         {
             type: "input",
@@ -22,13 +18,28 @@ const questions = [
         //Usage documentation
         {
             type: "input",
-            message: "Please ID the Usage for your project",
+            message: "Please ID the Usage for your project.",
             name: "usage",
         },
         //Lisence
-        //{
-
-        //},
+        {
+            type: "list",
+            message: "What kind of license are you using?",
+            name: "lisence",
+            choices: ["MIT", "Eclipse", "ISC", "SIL", "NA"],
+        },
+        //Contributing
+        {
+            type: "input",
+            message: "Who contributed to this project?",
+            name: "contributing"
+        },
+        //Tests
+        {
+            type: "input",
+            message: "Describe the tests for your project.",
+            name: "tests",
+        }
     ];
 
 module.exports = questions;

@@ -1,27 +1,40 @@
-
-
 function createReadMe(data) {
-    //1.Project Title 
+    return `
+# ${data.title}
 
-//2.Short Project Description
+### Description:
+${data.description}
 
-//3. Number listed table of Contents
+## Table of Contents:
+    -[Installation](#Install Guide)
+    -[Usage](#Usage)
+    -[License](#License)
+    -[Contributing](#Contributing)
+    -[Tests](#Tests)
+    -[Questions](#Questions)
+    -[Badges](#Badges)
 
-//4.Installation guide
+## Install Guide
+${data.install}
 
-//5.Usage
+## Usage
+${data.usage}
 
-//6.License
+##License:
+${data.license}
 
-//7.Contributing 
+##Contributing:
+${data.contributing}
 
-//8.Tests
+##Tests:
+${data.tests}
 
-//9.Questions:
-    //Profile Picture 
-    //Github Email
+##Questions:
+    ![User Avatar](${data.avatar_url})
+    User Email:
+    ${data.email}
 
-//10. Unique Badge
+//Badges
+`
 }
-
 module.exports = createReadMe;
