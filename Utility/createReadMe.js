@@ -31,12 +31,11 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions:
-<img src="${data.avatar_url}" alt="${data.login}" width="30%" align="left">
+<img src="${data.avatar_url}" alt="${data.login}" width="30%">
 
 User Email:
 ${data.email}
 
-//Badges
-
+//Badges`
 }
 module.exports = createReadMe;
