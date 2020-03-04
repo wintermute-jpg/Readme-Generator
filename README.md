@@ -4,14 +4,14 @@
 ### Description:
 A small program to generate Readmes
 
-## Table of Contents:
-    * [Installation](#Install Guide)
-    * [Usage](#Usage)
-    * [License](#License)
-    * [Contributing](#Contributing)
-    * [Tests](#Tests)
-    * [Questions](#Questions)
-    * [Badges](#Badges)
+## Table of Contents
+    * [Installation](#install-guide)
+    * [Usage](#usage)
+    * [License](#license)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [Questions](#questions)
+    * [Badges](#badges)
 
 ## Install Guide
 With your computer
