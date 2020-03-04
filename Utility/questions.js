@@ -21,11 +21,11 @@ const questions = [
             message: "Please ID the Usage for your project.",
             name: "usage",
         },
-        //Lisence
+        //License
         {
             type: "list",
             message: "What kind of license are you using?",
-            name: "lisence",
+            name: "license",
             choices: ["MIT", "Eclipse", "ISC", "SIL", "NA"],
         },
         //Contributing

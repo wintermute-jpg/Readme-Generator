@@ -1,11 +1,9 @@
 
 # Readme Generator
-
-
-    [![Generic badge](https://img.shields.io/badge/license-undefined-green.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/license-MIT-green.svg)](https://shields.io/)
 
 ### Description:
-A good read me generator
+A good readme generator
 
 ## Table of Contents:
 
@@ -18,13 +16,13 @@ A good read me generator
 * [Badges](#badges)
 
 ## Install Guide
-Comp
+comp
 
 ## Usage
 none
 
 ## License:
-undefined
+MIT
 
 ## Contributing:
 me
