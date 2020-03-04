@@ -6,13 +6,14 @@ function createReadMe(data) {
 ${data.description}
 
 ## Table of Contents:
-    * [Installation](#install-guide)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
-    * [Badges](#badges)
+
+* [Installation](#install-guide)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+* [Badges](#badges)
 
 ## Install Guide
 ${data.install}
